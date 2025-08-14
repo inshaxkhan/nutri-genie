@@ -1,16 +1,19 @@
-import React from 'react'
-import './App.css'
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
-import Hero from './components/ui/Hero'
+import React from "react";
+import Navbar from "./components/ui/Navbar";
+import Hero from "./components/ui/Hero";
+import AboutSection from "./components/ui/AboutSection";
+import Footer from "./components/ui/Footer";
 
 function App() {
   return (
-    <div className='min-h-screen bg-green-100'>
-      <h1 className='text-4xl font-bold text-green-700'>Nutri Genie</h1>
-      <Hero/>
+    <div className="font-sans">
+      <Navbar />
+      <Hero />
+
+      <AboutSection />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
