@@ -46,10 +46,9 @@ export default function Footer() {
 
           {/* Social Icons */}
           <div className="flex gap-4 text-green-400 text-lg">
+            <a href="https://linkedin.com/in/inshaxkhan" target="_blank"><FaLinkedinIn /></a>
             <a href="#"><FaTwitter /></a>
             <a href="#"><FaInstagram /></a>
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaLinkedinIn /></a>
           </div>
         </div>
       </div>
