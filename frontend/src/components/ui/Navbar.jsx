@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center px-16 py-4 bg-white shadow-md fixed w-full top-0 z-50">
-      <div className="text-2xl font-bold text-green-600">NutriGenie</div>
+      <NavLink to="/" className="text-2xl font-bold text-green-600">NutriGenie</NavLink>
 
       <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
         <li>
