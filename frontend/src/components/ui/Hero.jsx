@@ -1,6 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleGetStarted = () => {
+    navigate("/onboarding");
+  };
   return (
     <section className="pt-24 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
       {/* Left Text */}
@@ -11,7 +17,7 @@ const Hero = () => {
         <p className="mt-4 text-gray-600">
           Get meal ideas based on your preferences & ingredients with detailed nutritional analysis.
         </p>
-        <button className="mt-6 px-6 py-3 bg-green-500 text-white font-semibold rounded-full hover:bg-green-600">
+        <button onClick={handleGetStarted} className="mt-6 px-6 py-3 bg-green-500 text-white font-semibold rounded-full hover:bg-green-600">
           Get Started
         </button>
       </div>
