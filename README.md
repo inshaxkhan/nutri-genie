@@ -20,3 +20,9 @@ NutriGenie is an AI-powered recipe generator that creates personalized meal idea
 3. Generate and explore your personalized recipes.
 4. View nutritional details for informed meal planning.
 
+## Future Improvements
+1. Integration with wearable fitness trackers to align meals with activity levels.
+2. Smart meal planning and grocery list generation.
+3. Community features to share and rate recipes.
+
+
